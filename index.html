@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <title>Web Visualization Dashboard</title>
+    </head>
+    <body>
+    
+        <div class="navigationbar">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" style="background-color: #364fe0;" href="index.html">Latitude</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-12">
+                <div class="box1">
+                    <h2 class="header2">Project Overview</h2>
+                    <hr/>
+                    <img src="templat.png" class="home" alt="Temperature vs Latitude">
+                    <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. 
+                        To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset 
+                        on over 500 cities.</p>
+                     <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. 
+                        Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the 
+                        source data and visualizations created as part of the analysis, as well as explanations and descriptions 
+                        of any trends and correlations witnessed.</p>
+                </div>
+                </div>
+            
+            <div class="col-lg-5 col-md-12">
+            <div class="box1">
+            <h4 class="header2">Visualizations</h4>
+            <hr/>
+            <div class="container">
+                <div class="row" style="padding-right: 20px">
+                    <div class="col-6">
+                        <a href="templat.html">
+                            <img class="browse" src="templat.png" width="240px" height="190px" alt="Temperature vs Latitude">
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <a href="humlat.png">
+                            <img class="browse" src="humlat.png" width="240px" height="190px" alt="Humidity vs Latitude">
+                        </a>
+
+                    </div>
+                    <div class="col-6">
+                        <a href="cloudlat.png">
+                            <img class="browse" src="cloudlat.png" width="240px" height="190px" alt="Cloudiness vs Latitude">
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <a href="windlat.html">
+                            <img class="browse" src="windlat.png" width="240px" height="190px" alt="Wind Speed vs Latitude">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        </div>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                crossorigin="anonymous"></script>
+    
+    </body>
+
+</html>
