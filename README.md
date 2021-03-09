@@ -1,1 +1,1 @@
-# web-design-challenge
+# A website was creating using HTML and CSS that explains a past project in detail. It is a fully functional, multi-page website with various CSS customizations. It can be found at https://sdomke123.github.io
